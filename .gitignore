@@ -1,9 +1,10 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/**
 !**/src/main/**/target/
 !**/src/test/**/target/
-/http
+http/
 ### STS ###
 .apt_generated
 .classpath
@@ -18,7 +19,7 @@ target/
 *.iws
 *.iml
 *.ipr
-.mvn/wrapper
+*.mvn/wrapper
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
